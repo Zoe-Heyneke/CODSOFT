@@ -33,7 +33,7 @@ header h1 {
 
 #topnav {
     position: absolute;
-    width: 500px;
+    width: 600px;
     top: 90px;
     right: 10px;
 }
@@ -47,9 +47,14 @@ header h1 {
     font-weight: bolder;
 }
 
+.current {
+    color: rgb(140, 161, 199);
+    text-decoration: underline;
+}
+
 a:link {
-    color: brown;
-    text-decoration: wavy;
+    color: rgb(140, 161, 199);
+    text-decoration: underline;
 }
 
 a:visited {
