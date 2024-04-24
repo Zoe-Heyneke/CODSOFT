@@ -167,6 +167,19 @@ main h2{
     background-color: darkkhaki;
 }
 
+.ingredients a:link {
+    color: black;
+    text-decoration: wavy;
+}
+
+.ingredients a:visited {
+    color: rgb(155, 87, 5);
+}
+
+.ingredients a:hover {
+    color: blanchedalmond;
+}
+
 .specials{
     color: rgb(57, 29, 1);
     background-color: rgb(178, 123, 134);
