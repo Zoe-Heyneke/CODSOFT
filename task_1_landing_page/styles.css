@@ -4,7 +4,7 @@ body {
 }
 
 #back {
-    width: 1000px;
+    width: 1400px;
     background-color: rgb(68, 83, 96);
     margin-left: auto;
     margin-right: auto;
@@ -12,7 +12,7 @@ body {
 
 header {
     background-image: url(_images/stars.jpg);
-    height: 150px;
+    height: 125px;
     position: relative;
 }
 
@@ -34,7 +34,7 @@ header h1 {
 #topnav {
     position: absolute;
     width: 500px;
-    top: 100px;
+    top: 90px;
     right: 10px;
 }
 
@@ -72,7 +72,7 @@ main h1 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 25%;
 }
 
 .info{
