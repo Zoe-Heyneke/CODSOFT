@@ -1,0 +1,50 @@
+header{
+    text-align: center;
+}
+
+.about {
+    background-color: rgb(213, 136, 136);
+}
+
+.about h1{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.about img{
+    border-radius: 50%;
+    border-style: double;
+    border-color: darkmagenta;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about p{
+    text-align: center;
+}
+
+.skills h1{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.achievements h1{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.projects h1{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.cv h1{
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.contact h1{
+    text-align: center;
+    background-color: antiquewhite;
+}
