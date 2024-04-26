@@ -39,9 +39,24 @@ header{
     background-color: antiquewhite;
 }
 
+.cv{
+    background-color: darkgray;
+}
+
 .cv h1{
     text-align: center;
     background-color: antiquewhite;
+}
+
+.cv a{
+    display: block;
+    text-align: center;
+    border-style: solid;
+    border-radius: 25%;
+    margin-left: 25%;
+    width: 50%;
+    background-color: lightgreen;
+    font-size: 30px;
 }
 
 .contact h1{
