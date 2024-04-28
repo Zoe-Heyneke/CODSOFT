@@ -1,51 +1,185 @@
 header{
     text-align: center;
+    background-image: linear-gradient(rgb(108, 45, 108), rgb(208, 117, 132));
+}
+
+.first{
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.first h1{
+    font-family: "Patua One", serif;
+    font-size: 80px;
+    color: rgb(86, 56, 86);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(27, 11, 43);
+    margin-top: 50px;
+    margin-bottom: 10px;
+    /*
+    border-bottom: 4px solid rgb(39, 36, 42);
+    padding-bottom: 10px;
+    */
+}
+
+hr{
+    border: 3px solid rgb(39, 36, 42);
+    width: 50%;
+}
+
+.first h2{
+    font-family: "Jersey 10", sans-serif;
+    font-size: 40px;
+    color: rgb(37, 18, 56);
+    margin-top: 10px;
+}
+
+.first ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+.first li{
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(136, 94, 136);
+    font-family: "IBM Plex Serif", serif;
+    font-weight: 700;
+    font-size: 25px;
+    margin-right: 15px;
+    box-shadow: 0 8px 12px rgb(37, 18, 56);
+    margin-bottom: 20px;
+}
+
+.first li a{
+    color: rgb(65, 55, 65);
+    text-decoration: none;
+}
+
+.first a:link{
+    
+}
+
+.first a:visited{
+    
+}
+
+.first a:hover{
+    background-color: rgb(179, 69, 137);
+}
+
+.first .cnav{
+    background-color: rgb(49, 29, 68);
+    
 }
 
 .about {
-    background-color: rgb(213, 136, 136);
+    background-color: rgb(208, 117, 132);
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .about h1{
     text-align: center;
-    background-color: antiquewhite;
+    background-color: rgb(243, 226, 196);
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-size: 60px;
 }
 
 .about img{
     border-radius: 50%;
     border-style: double;
-    border-color: darkmagenta;
+    border-color: rgb(63, 4, 63);
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 300px;
+    height: auto;
 }
 
 .about p{
     text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 28px;
+}
+
+.skills{
+    background-color: rgb(208, 117, 132);
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .skills h1{
     text-align: center;
     background-color: antiquewhite;
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.achievements{
+    background-color: rgb(208, 117, 132);
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .achievements h1{
     text-align: center;
     background-color: antiquewhite;
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.projects{
+    background-color: rgb(208, 117, 132);
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .projects h1{
     text-align: center;
     background-color: antiquewhite;
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-size: 60px;
 }
 
 .cv{
-    background-color: darkgray;
+    background-color: rgb(208, 117, 132);
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
 .cv h1{
     text-align: center;
     background-color: antiquewhite;
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-size: 60px;
 }
 
 .cv a{
@@ -59,7 +193,23 @@ header{
     font-size: 30px;
 }
 
+.contact{
+    background-image: linear-gradient(rgb(208, 117, 132), rgb(108, 45, 108));
+    min-height: 100vh;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
 .contact h1{
     text-align: center;
     background-color: antiquewhite;
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-size: 60px;
+}
+
+.end{
+    background-color: rgb(108, 45, 108);
 }
