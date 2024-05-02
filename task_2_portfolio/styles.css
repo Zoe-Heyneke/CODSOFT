@@ -131,6 +131,37 @@ hr{
     font-size: 60px;
 }
 
+.boxplace{
+    text-align: center;
+}
+
+.box{
+    display: inline-block;
+    border: 2px solid ;
+    color: rgb(28, 45, 77);
+    background-color: rgb(226, 215, 207);
+    margin: 30px;
+    width: 400px;
+    align-items: center;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 28px;
+}
+
+.box h2{
+    font-family: "Jersey 10", sans-serif;
+}
+
+.box ul{
+    list-style-type: none;
+    text-align: center;
+    padding: 2px;
+}
+
+.box img{
+    width: 95%;
+    height: 80%;
+}
+
 .achievements{
     background-color: rgb(208, 117, 132);
     min-height: 100vh;
@@ -148,6 +179,19 @@ hr{
     font-size: 60px;
 }
 
+/*
+.horizontal {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.vertical {
+    flex: 33.33%;
+}
+*/
+
+
 .projects{
     background-color: rgb(208, 117, 132);
     min-height: 100vh;
@@ -155,6 +199,8 @@ hr{
     display: grid;
     align-items: center;
     justify-content: center;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 20px;
 }
 
 .projects h1{
@@ -164,6 +210,22 @@ hr{
     font-weight: 400;
     font-size: 60px;
 }
+
+.projects h2{
+    font-family: "Patua One", serif;
+}
+
+div.scroll-container {
+    background-image: linear-gradient(rgb(56, 65, 89), rgb(50, 33, 59));
+    overflow: auto;
+    white-space: nowrap;
+    padding: 8px;
+    border: 2px solid rgb(28, 45, 77);
+  }
+  
+  div.scroll-container img {
+    padding: 8px;
+  }
 
 .cv{
     background-color: rgb(208, 117, 132);
