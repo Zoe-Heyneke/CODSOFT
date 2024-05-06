@@ -1,6 +1,67 @@
-body{
-    background-image: linear-gradient(to bottom right, rgba(219,181,240,255), rgba(76,28,112,255));
+body {
+    background-image: linear-gradient(to bottom right, rgba(219, 181, 240, 255), rgba(76, 28, 112, 255));
     background-repeat: no-repeat;
     background-size: cover;
     background-size: 1920px 1080px;
+}
+
+.top {
+    text-align: center;
+}
+
+.top h1 {
+    font-family: "IBM Plex Serif", serif;
+    display: inline;
+}
+
+.top p {
+    font-family: "Cookie", cursive;
+    font-weight: 400;
+    font-size: 25px;
+    display: inline;
+}
+
+.calc {
+    background-color: grey;
+    height: 390px;
+    width: 450px;
+    margin: auto;
+    margin-top: 40px;
+    border-spacing: 8px;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: rgba(76, 28, 112, 255);
+}
+
+.show {
+    font-family: "Rajdhani", sans-serif;
+    background-color: rgba(219, 181, 240, 255);
+    color: black;
+    font-size: 18px;
+    border: 0.5px solid black;
+    width: 100%;
+    height: 60%;
+}
+
+#operate {
+    font-family: "Patua One", serif;
+    background-color: rgb(142, 49, 65);
+    color: rgb(181, 178, 178);
+    font-size: 18px;
+    border: 0.5px solid black;
+}
+
+.but {
+    font-family: "Patua One", serif;
+    font-size: 15px;
+    background-color: rgba(76, 28, 112, 255);
+    color: darkgrey;
+    width: 100%;
+    height: 70%;
+    border: 0.5px solid black;
+    box-shadow: 0 3px 6px rgb(41, 40, 40);
+}
+
+p {
+    font-family: "Patua One", serif;
 }
