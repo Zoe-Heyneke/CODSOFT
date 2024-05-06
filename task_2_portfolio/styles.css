@@ -262,7 +262,10 @@ div.scrolling img {
     text-decoration: none;
     font-family: "Rajdhani", sans-serif;
     font-size: 35px;
+    font-weight: bold;
     box-shadow: 0 3px 6px rgb(158, 108, 172);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(27, 11, 43);
 }
 
 .cv a:hover {
@@ -301,17 +304,17 @@ div.scrolling img {
 .c-align h2 {
     font-family: "Patua One", serif;
     text-decoration: underline;
-    font-size: 30px;
+    font-size: 28px;
 }
 
 .c-align p {
     font-family: "Rajdhani", sans-serif;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 .c-align a {
     font-family: "Rajdhani", sans-serif;
-    font-size: 25px;
+    font-size: 23px;
     text-decoration: none;
     color: rgb(29, 29, 66);
 }
@@ -329,6 +332,7 @@ div.scrolling img {
     margin-top: 0px;
     font-size: 18px;
     box-shadow: 0 3px 6px rgb(158, 108, 172);
+    font-family: "Rajdhani", sans-serif;
 }
 
 .end {
