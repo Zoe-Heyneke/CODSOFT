@@ -1,5 +1,5 @@
-function clear(){
-    document.getElementById("screen").value = "";
+function blank(){
+    document.getElementById("screen").value = " ";
 }
 
 function show(value){

@@ -20,7 +20,7 @@
     <table class="calc">
         <tr>
             <td colspan="3"><input class="show" type="text" id="screen"></td>
-            <td><input class="but" type="button" value="Clear" onclick="clear()" id="operate"></td> <!--when clicked the function clear() will perform which clears the answer at id="screen"-->
+            <td><input class="but" type="button" value="clear" onclick="blank('')" id="operate"></td> <!--when clicked the function clear() will perform which clears the answer at id="screen"-->
         </tr>
         <tr>
             <td><input class="but" type="button" value="+" onclick="show('+')" id="operate"></td>
@@ -44,7 +44,7 @@
             <td><input class="but" type="button" value="9" onclick="show('9')"></td>
             <td><input class="but" type="button" value="0" onclick="show('0')"></td>
             <td><input class="but" type="button" value="." onclick="show('.')"></td>
-            <td><input class="but" type="button" value="=" onclick="solve('=')" id="operate"></td> <!--when clicked the function solve() will take the screen input and evaluating using eval() function-->
+            <td><input class="but" type="button" value="=" onclick="solve('=')" id="operate"></td> <!--when clicked the function solve() will take the screen input and evaluating using eval() function by comparing x and y values entered by user and thus solving the equation -->
         </tr>
     </table>
 
