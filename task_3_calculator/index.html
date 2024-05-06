@@ -19,8 +19,8 @@
     <!--calculator is inside a table which consists out of 5 rows <tr> and 4 columns <td>-->
     <table class="calc">
         <tr>
-            <td colspan="3"><input class="show" type="text"></td>
-            <td><input class="but" type="button" value="Clear" id="operate"></td>
+            <td colspan="3"><input class="show" type="text" id="screen"></td>
+            <td><input class="but" type="button" value="Clear" onclick="clear()" id="operate"></td> <!--when clicked the function clear() will perform which clears the answer at id="screen"-->
         </tr>
         <tr>
             <td><input class="but" type="button" value="+" id="operate"></td>
@@ -47,6 +47,9 @@
             <td><input class="but" type="button" value="=" id="operate"></td>
         </tr>
     </table>
+
+    <script type="text/javascript" src="script.js"></script>
+
     <p>&copy; Calculator | 2024</p>
 </body>
 </html>
