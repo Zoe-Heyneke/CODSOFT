@@ -219,7 +219,7 @@ hr {
     background-color: rgb(142, 77, 142);
 }
 
-div.scrolling {
+.scrolling {
     background-image: linear-gradient(rgb(56, 65, 89), rgb(50, 33, 59));
     overflow: auto;
     white-space: nowrap;
@@ -227,7 +227,7 @@ div.scrolling {
     border: 2px solid rgb(28, 45, 77);
 }
 
-div.scrolling img {
+.scrolling img {
     padding: 8px;
 }
 
