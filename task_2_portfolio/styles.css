@@ -65,10 +65,6 @@ hr {
     text-decoration: none;
 }
 
-.first a:link {}
-
-.first a:visited {}
-
 .first a:hover {
     background-color: rgba(252, 207, 186, 255);
 }
