@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,6 +12,7 @@
         href="https://fonts.googleapis.com/css2?family=Cookie&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jersey+10&family=Patua+One&family=Rajdhani:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 </head>
+
 <body>
     <div class="top">
         <h1>Calculator | </h1>
@@ -20,10 +22,12 @@
     <table class="calc">
         <tr>
             <td colspan="3"><input class="show" type="text" id="screen"></td>
-            <td><input class="but" type="button" value="Clear" onclick="blank('')" id="operate"></td> <!--when clicked the function clear() will perform which clears the answer at id="screen"-->
+            <td><input class="but" type="button" value="Clear" onclick="blank('')" id="operate"></td>
+            <!--when clicked the function clear() will perform which clears the answer at id="screen"-->
         </tr>
         <tr>
-            <td><input class="but" type="button" value="+" onclick="show('+')" id="operate"></td> <!--when clicked the function show() will show the value of the clicked by the user on the screen-->
+            <td><input class="but" type="button" value="+" onclick="show('+')" id="operate"></td>
+            <!--when clicked the function show() will show the value of the clicked by the user on the screen-->
             <td><input class="but" type="button" value="-" onclick="show('-')" id="operate"></td>
             <td><input class="but" type="button" value="*" onclick="show('*')" id="operate"></td>
             <td><input class="but" type="button" value="/" onclick="show('/')" id="operate"></td>
@@ -44,11 +48,13 @@
             <td><input class="but" type="button" value="9" onclick="show('9')"></td>
             <td><input class="but" type="button" value="0" onclick="show('0')"></td>
             <td><input class="but" type="button" value="." onclick="show('.')"></td>
-            <td><input class="but" type="button" value="=" onclick="solve('=')" id="operate"></td> <!--when clicked the function solve() will take the screen input and evaluating using eval() function by comparing x and y values entered by user and thus solving the equation -->
+            <td><input class="but" type="button" value="=" onclick="solve('=')" id="operate"></td>
+            <!--when clicked the function solve() will take the screen input and evaluating using eval() function by comparing x and y values entered by user and thus solving the equation -->
         </tr>
     </table>
 
     <!--add javascript file-->
     <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
